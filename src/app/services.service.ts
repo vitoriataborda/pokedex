@@ -14,4 +14,8 @@ export class ServicesService {
   buscarTodosPokemon() {
     return this.http.get(`${this.url}pokemon`);
   }
+
+  buscarUmPokemon(url: string) {
+    return this.http.get(url);
+  }
 }
