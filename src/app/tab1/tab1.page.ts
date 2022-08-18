@@ -30,6 +30,7 @@ export class Tab1Page implements OnInit {
         .buscarUmPokemon(pokemon.url)
         .subscribe((dadosPokemon) => {
           this.listaPokemon.push(dadosPokemon);
+          
 
         });
 
